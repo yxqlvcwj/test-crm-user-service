@@ -1725,3 +1725,35 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2018-12-16 15:46:58.912 INFO [main]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
 2018-12-16 15:47:02.211 INFO [Thread-3]o.s.web.context.support.GenericWebApplicationContext.doClose:993 -Closing org.springframework.web.context.support.GenericWebApplicationContext@a1f72f5: startup date [Sun Dec 16 15:46:55 CST 2018]; root of context hierarchy
 2018-12-16 15:47:02.226 INFO [Thread-3]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2018-12-16 18:31:19.689 INFO [restartedMain]com.Application.logStarting:50 -Starting Application on dwb-571-00237 with PID 16520 (D:\test-crm-user-service\target\classes started by Administrator in D:\test-crm-user-service)
+2018-12-16 18:31:19.777 INFO [restartedMain]com.Application.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2018-12-16 18:31:20.649 INFO [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48c27e03: startup date [Sun Dec 16 18:31:20 CST 2018]; root of context hierarchy
+2018-12-16 18:31:24.672 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 1012 (http)
+2018-12-16 18:31:24.860 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:180 -Initializing ProtocolHandler ["http-nio-1012"]
+2018-12-16 18:31:25.009 INFO [restartedMain]org.apache.catalina.core.StandardService.log:180 -Starting service [Tomcat]
+2018-12-16 18:31:25.010 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:180 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-12-16 18:31:25.081 INFO [localhost-startStop-1]org.apache.catalina.core.AprLifecycleListener.log:180 -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-16 18:31:25.081 INFO [localhost-startStop-1]org.apache.catalina.core.AprLifecycleListener.log:180 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-16 18:31:25.081 INFO [localhost-startStop-1]org.apache.catalina.core.AprLifecycleListener.log:180 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-16 18:31:26.244 INFO [localhost-startStop-1]org.apache.catalina.core.AprLifecycleListener.log:180 -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-16 18:31:26.786 INFO [localhost-startStop-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 -Initializing Spring embedded WebApplicationContext
+2018-12-16 18:31:26.787 INFO [localhost-startStop-1]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 6138 ms
+2018-12-16 18:31:27.062 INFO [localhost-startStop-1]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:185 -Servlet dispatcherServlet mapped to [/]
+2018-12-16 18:31:27.067 INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-16 18:31:27.067 INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-16 18:31:27.068 INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-16 18:31:27.068 INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-16 18:31:27.702 INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-16 18:31:28.039 INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48c27e03: startup date [Sun Dec 16 18:31:20 CST 2018]; root of context hierarchy
+2018-12-16 18:31:28.149 INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-16 18:31:28.151 INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 18:31:28.197 INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-16 18:31:28.197 INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-16 18:31:28.641 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2018-12-16 18:31:28.691 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 -Registering beans for JMX exposure on startup
+2018-12-16 18:31:28.694 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-16 18:31:28.702 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-16 18:31:28.725 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:180 -Starting ProtocolHandler ["http-nio-1012"]
+2018-12-16 18:31:28.740 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:180 -Using a shared selector for servlet write/read
+2018-12-16 18:31:28.770 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:206 -Tomcat started on port(s): 1012 (http) with context path ''
+2018-12-16 18:31:28.777 INFO [restartedMain]com.Application.logStarted:59 -Started Application in 9.726 seconds (JVM running for 11.244)
