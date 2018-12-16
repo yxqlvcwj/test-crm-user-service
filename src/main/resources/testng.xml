@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="用户系统测试套件">
+    <listeners>
+        <!--引入外部报告模板-->
+        <listener class-name="com.dwd.test.config.ExtentTestNGIReporterListener" />
+    </listeners>
+    <test name="接口用例测试">
+        <classes>
+            <class name="com.dwd.test.testcase.testuser.loginTest"/>
+            <class name="com.dwd.test.testcase.testuser.AddUserTest"/>
+            <class name="com.dwd.test.testcase.testuser.GetUserInfoTest"/>
+        </classes>
+    </test>
+
+</suite>
