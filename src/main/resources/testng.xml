@@ -13,5 +13,4 @@
             <class name="com.dwd.test.testcase.testuser.GetUserInfoTest"/>
         </classes>
     </test>
-
 </suite>

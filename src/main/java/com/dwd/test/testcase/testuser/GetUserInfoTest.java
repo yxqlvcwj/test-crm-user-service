@@ -11,7 +11,6 @@ import com.dwd.test.testcase.ServerSettings;
 import com.mongodb.util.JSON;
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.Test;
