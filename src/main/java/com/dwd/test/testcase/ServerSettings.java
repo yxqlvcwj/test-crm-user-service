@@ -3,13 +3,14 @@ package com.dwd.test.testcase;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by Chen WenJie on 2018/12/15.
  */
-@Component
+@Configuration
 @PropertySource({"classpath:application.properties"})
 /*@ConfigurationProperties(prefix="test")
  * 加上prefix这个下面就不用加value了，但是需要名称和属性对应

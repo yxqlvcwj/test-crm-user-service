@@ -36,6 +36,9 @@ public class GetUserInfoTest extends BaseCase {
     @Autowired
     private  UserMapper userMapper;
 
+    @Autowired
+    private GetUserInfoAndCookies getUserInfoAndCookies;
+
     @Test(description = "获取用户信息接口")
     public void getUserInfoCase(){
         //获取入参信息
@@ -46,7 +49,6 @@ public class GetUserInfoTest extends BaseCase {
         }
         //前置登陆接口，获取cookie
         User user = userMapper.findUserInfoById(String.valueOf(getUserinfoCase.getUserId()));
-        GetUserInfoAndCookies getUserInfoAndCookies = new GetUserInfoAndCookies();
         Response response = getUserInfoAndCookies.login(user,serverSettings.testUrl+serverSettings.loginGetUserInfoUri);
         //获取用户信息
         Map<String,Object> param = new HashMap<>();

@@ -1,5 +1,6 @@
 package com.dwd.test.testcase;
 
+import com.dwd.test.BaseCase;
 import com.dwd.test.db.domain.LoginCase;
 import com.dwd.test.db.domain.User;
 import io.restassured.response.Response;
